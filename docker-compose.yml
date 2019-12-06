@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ubuntu:
+    image: ceregousa/ubuntu-git
+    network_mode: host
+    volumes: 
+      - .:/home
+    working_dir: /home
